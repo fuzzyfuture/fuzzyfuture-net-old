@@ -1,0 +1,28 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import Banner from "../components/Banner.astro";
+import Nav from "../components/Nav.astro";
+---
+
+<Layout>
+  <div class="container">
+    <Banner />
+    <div class="row">
+      <div class="col-md-2">
+        <Nav />
+      </div>
+      <div class="col-md-10">
+        <div class="main bg-red">
+          <h2>Welcome!</h2>
+          <p>
+            Welcome to my little website..! It's still a work in progress, so
+            don't worry about that too much.
+          </p>
+          <h2>About Me</h2>
+          <p>Idk...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
